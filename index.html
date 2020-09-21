@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Gmail</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+  <!-- contenitore -->
+  <div id="container">
+
+    <!-- intestazione page -->
+    <header>
+      <img src="img/gmail.png" alt="logo-gmail">
+      <h3>Gmail</h3>
+      <hr>
+    </header>
+
+    <main>
+
+      <!-- sezione ricerca mail -->
+
+      <section>
+        <input type="text" name="Search" placeholder="Search">
+        <button type="button" name="Go">Go!</button>
+      </section>
+
+      <!-- sezione non lette e elenco mail lette e non lette -->
+      <section>
+        <h3>You have <span id="unread-mails">30</span> unread</h3>
+        <hr>
+        <div class="unread">
+          <div class="mail">
+            <input type="checkbox" name="read" value="">
+            <span>&starf;</span>
+            <span class="mail-subject">Oggetto della mail</span>
+            <span class="mail-text">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="read">
+          <div class="mail">
+            <input type="checkbox" name="read" value="">
+            <span>&starf;</span>
+            <span class="mail-subject">Oggetto della mail</span>
+            <span class="mail-text">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="unread">
+          <div class="mail">
+            <input type="checkbox" name="" value="">
+            <span>&starf;</span>
+            <span class="mail-subject">Oggetto della mail</span>
+            <span class="mail-text">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="read">
+          <div class="mail">
+            <input type="checkbox" name="" value="">
+            <span>&starf;</span>
+            <span class="mail-subject">Oggetto della mail</span>
+            <span class="mail-text">Testo della mail</span>
+          </div>
+        </div>
+
+        <div class="unread">
+          <div class="mail">
+            <input type="checkbox" name="" value="">
+            <span>&starf;</span>
+            <span class="mail-subject">Oggetto della mail</span>
+            <span class="mail-text">Testo della mail</span>
+          </div>
+        </div>
+
+        <hr>
+
+      </section>
+
+    </main>
+
+    <footer>Gmail <span id="credits">powered by Salvo</span> </footer>
+
+  </div>
+
+  </body>
+
+</html>
