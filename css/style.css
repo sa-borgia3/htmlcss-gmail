@@ -1,0 +1,94 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* sfondo background */
+body {
+  background-image: url("../img/pattern.jpg");
+}
+
+/* contenitore blocco di pagina */
+#container {
+  width: 90%;
+  margin:auto;
+}
+
+
+/* immagine e titolo header */
+header img, h3 {
+  display: inline-block;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+header h3 {
+  font-size: 30px;
+  color: white;
+}
+
+section h3 {
+  font-size: 20px;
+  color: white;
+}
+
+hr {
+  border-color: white;
+  margin-bottom: 8px;
+  margin-top:8px;
+}
+
+/* struttura email lette e non lette */
+.unread, .read {
+  border: 1px solid black;
+  margin: 0;
+}
+
+.read {
+  background-color: lightgrey;
+}
+
+.unread {
+  background-color: white;
+}
+
+/* margine sinistro dal checkbox */
+.mail {
+  margin-left: 2px;
+}
+
+/* separatore oggetto e testo mail */
+.mail-subject::after {
+  content: " - ";
+}
+
+.mail-text {
+  color: grey;
+}
+
+#unread-mails {
+  background-color: red;
+  border-radius: 15px;
+}
+
+footer {
+  color:white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#credits {
+  font-style: italic;
+  font-size: 16px;
+}
+
+/* margine alto */
+header, section, main {
+  margin-top: 10px;
+}
